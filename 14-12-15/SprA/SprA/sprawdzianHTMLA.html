@@ -1,0 +1,69 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Spr</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  
+  </head>
+<body>
+<!-- Zad1-->
+<!-- Utwórz listę wg. podanego wzoru-->
+<ul type="I">
+	<li>Pozycja 1</li>
+	<li>Pozycja 2</li>
+	<ul><li>Pozycja 2a</li>
+	<li>Pozycja 2b</li></ul>
+	<li>Pozycja 3</li>
+</ul>
+<!--Zad2-->
+<!--Utwórz tabelę wg podanego wzoru, (szerokość 400 wysokość 200)-->
+<table width=400 height=200 border=1>
+<tr><td></td><td></td><td rowspan=2 bgcolor=yellow></td><td></td></tr>
+<tr><td></td><td></td><td></td></tr>
+</table>
+
+<!--Zad3-->
+<!-- 	Wstaw obraz a następnie ustaw go jako odnośnik do wikipedii. 
+		Dołącz do zdjęcia tekst alternatywny "wikipedia"
+		Wstaw odnośnik pocztowy-->
+<br>
+<a href="http://wikipedia.pl" alt="wikipedia"><img src="wiki.jpg" alt="wikipedia" /></a>
+<br>
+<a href="mailto:email@poczta.pl">Wyślij maila...</a>
+
+<!--Zad4-->
+<!-- 	Utwórz formularz wg podanego wzoru:
+		hasło może zawierać max 6 znaków
+		można dokonać wielu wyborów w liście
+		w polu nazwisko domyślnie wpisuje się Kowalski
+		domyślnie zaznaczone pole wyboru-->
+
+
+<br><br>
+
+<fieldset><legend>Formularz A</legend>
+<form action="mailto: email@poczta.pl" method="post">
+Podaj hasło(max.6 znaków): <input type="password" maxlength=6>
+<br>Wybierz numer listy:
+<input type=select>
+<option>lista 1</option>
+<option>lista 2</option>
+<option>lista 3</option>
+<option>lista 4</option>
+</input>
+
+<br><br>
+
+Podaj nazwisko: <input type="text" value="Kowalski">
+<br><br>
+
+<input type="checkbox" checked> Akceptuje regulamin
+<br><br>
+<input type="submit"><input type="reset">
+
+
+</form></fieldset>
+
+</body>
+</html>
