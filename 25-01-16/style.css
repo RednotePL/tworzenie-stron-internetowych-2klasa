@@ -1,0 +1,26 @@
+body{
+	background: url(a.jpg);
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+}
+
+p{
+	font-family: Courier;
+	text-align: justify;
+	color: gray;
+	text-indent: 50px;
+	word-spacing: 5px;
+	background: url(2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+h1{
+	text-align: center;
+	font-style: italic;
+	
+}
+
+footer{
+	text-align: center;
+}
