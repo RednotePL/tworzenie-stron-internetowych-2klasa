@@ -1,11 +1,12 @@
 .klasa1 {
 	border-top: dashed;
 	font-family: Arial;
-	font: red, 14pt;
+	font-size: 14pt;
+	color: red;
 }
 
 .klasa2 {
-	border: green;
+	border: solid green;
 	font: Courier, 10pt;
 }
 
