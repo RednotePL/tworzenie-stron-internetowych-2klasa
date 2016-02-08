@@ -1,0 +1,16 @@
+.klasa1 {
+	border-top: dashed;
+	font-family: Arial;
+	font: red, 14pt;
+}
+
+.klasa2 {
+	border: green;
+	font: Courier, 10pt;
+}
+
+.klasa3 {
+	background-color: yellow;
+	color: blue;
+	font: Comic Sans MS;
+}
