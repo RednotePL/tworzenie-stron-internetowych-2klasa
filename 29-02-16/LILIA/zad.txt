@@ -1,0 +1,23 @@
+w pliku lilia html utw styl wewnetrzny
+dla body wszystkie margin zewn 0
+tlo b9d8d4
+
+
+id pojemnik{
+	szerokosc 680px
+	margin zewn gora dol 0
+		prawy lewy auto
+	margin wewn gora 55px
+		prawy 60px
+		dolny 100px
+		lewy 60px
+	kolor tla 59a69e
+	
+	tlo lilia.jpg
+powtarzanie tla
+obramowanie lewei prawe 2px czarna ciagla linia
+czcionka georgia szeryfowa
+odstep miedzy wierszami 3
+	miedzy literami 0.15m
+	miedzy wyrazami 0.5m
+}
